@@ -15,6 +15,8 @@ export default function App() {
       setLoading(false);
     }, 3000);
   }, []);
-
-  return <>{loading ? <Loading /> : <Main />}</>;
+  
+  if(loading) return <Loading />
+    
+  return <Main />
 }
