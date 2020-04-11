@@ -1,5 +1,6 @@
 import React from 'react';
-import { FiGithub, FiInstagram, FiLinkedin } from 'react-icons/fi';
+
+import Social from '../Social';
 
 import imgProfile from '../../assets/profile.jpg';
 import './styles.css';
@@ -85,7 +86,7 @@ export default function Main() {
                         <span className="key">course</span>
                         <span className="pontuation">: </span>
                         <span className="value">
-                          'Técnico de nível Médio em Meio Ambiente'
+                          'Técnico de nível médio em Meio Ambiente'
                         </span>
                         <span className="pontuation">,</span>
                       </div>
@@ -129,35 +130,47 @@ export default function Main() {
                         <span className="value">'Intermediário-Avançado'</span>
                         <span className="pontuation">,</span>
                         <br />
-                        {/* indice 2 */}
+                        {/* indice 3 */}
                         <span className="key">CSS</span>
                         <span className="pontuation">: </span>
                         <span className="value">'Intermediário-Avançado'</span>
                         <span className="pontuation">,</span>
                         <br />
-                        {/* indice 2 */}
+                        {/* indice 4 */}
                         <span className="key">ReactJs</span>
                         <span className="pontuation">: </span>
                         <span className="value">'Básico-Intermediário'</span>
                         <span className="pontuation">,</span>
                         <br />
-                        {/* indice 2 */}
+                        {/* indice 5 */}
                         <span className="key">NodeJs</span>
                         <span className="pontuation">: </span>
                         <span className="value">'Básico'</span>
                         <span className="pontuation">,</span>
                         <br />
-                        {/* indice 2 */}
+                        {/* indice 6 */}
                         <span className="key">ReactNative</span>
                         <span className="pontuation">: </span>
                         <span className="value">'Básico'</span>
                         <span className="pontuation">,</span>
                         <br />
-                        {/* indice 2 */}
+                        {/* indice 7 */}
                         <span className="key">MySQL</span>
                         <span className="pontuation">: </span>
                         <span className="value">'Básico-Intermediário'</span>
                         <span className="pontuation">,</span>
+                        <br />
+                        {/* indice 8 */}
+                        <span className="key">Photoshop</span>
+                        <span className="pontuation">: </span>
+                        <span className="value">'Básico-Intermediário'</span>
+                        <span className="pontuation">,</span>
+                        <br />
+                        {/* indice 9 */}
+                        <span className="key">Figma</span>
+                        <span className="pontuation">: </span>
+                        <span className="value">'Básico'</span>
+                        <span className="pontuation"></span>
                       </div>
                       <span className="pontuation">{fechaChave}</span>
                     </div>
@@ -233,55 +246,27 @@ export default function Main() {
                   </span>
                 </p>
                 {/* final do obj3 */}
-                <br />
-                <p className="cores">
-                  <span className="const">myResume</span>
-                  <span className="pontuation">();</span>
-                </p>
-                <br />
-                <p className="cores">
-                  <span className="comment">/* me contrata */</span>
-                  <div className="cursorAnimated">
-                    <span className="cursor">|</span>
-                  </div>
-                </p>
               </div>
+              {/* fim da função principal */}
+              <span className="pontuation">{fechaChave}</span>
+              <br />
+              <br />
+              {/* add console.log e chamar a função */}
+              {/*  <p className="cores">
+                <span className="const">myResume</span>
+                <span className="pontuation">();</span>
+              </p>
+              <br /> */}
+              <p className="cores">
+                <span className="comment">/* me contrata */</span>
+                <div className="cursorAnimated">
+                  <span className="cursor">|</span>
+                </div>
+              </p>
             </p>
           </div>
-          <div className="social">
-            <ul className="social-contact">
-              <li>
-                <FiInstagram />
-                <a
-                  href="https://www.instagram.com/manno_eu/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Instagram
-                </a>
-              </li>
-              <li>
-                <FiGithub />
-                <a
-                  href="https://github.com/mannoeu"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  GitHub
-                </a>
-              </li>
-              <li>
-                <FiLinkedin />
-                <a
-                  href="https://www.linkedin.com/in/emmanuel-messias-535621127/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Linkedin
-                </a>
-              </li>
-            </ul>
-          </div>
+          {/* social */}
+          <Social />
         </div>
       </div>
     </div>
