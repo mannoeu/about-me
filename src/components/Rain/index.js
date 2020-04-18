@@ -5,7 +5,6 @@ import "./styles.css";
 import initAnimation from "./animation";
 
 export default function Rain() {
-
     const canvasRef = useRef(null);
 
     useEffect(() => canvasRef && initAnimation(canvasRef.current));
