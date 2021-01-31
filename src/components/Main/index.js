@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Social from '../Social';
-import Rain from "../Rain";
+import Rain from '../Rain';
 
 import imgProfile from '../../assets/profile.jpg';
 import './styles.css';
@@ -37,7 +37,7 @@ export default function Main() {
                       name <span className="function">{igual} </span>
                       <span className="value">
                         'Emmanuel Messias da Silva Costa'
-                    </span>
+                      </span>
                       <span className="pontuation">;</span>
                     </span>
                   </p>
@@ -47,7 +47,15 @@ export default function Main() {
                       contact <span className="function">{igual} </span>
                       <span className="value">
                         'emmanuel_costasilva@hotmail.com'
+                      </span>
+                      <span className="pontuation">;</span>
                     </span>
+                  </p>
+                  <p className="cores">
+                    <span className="function">const </span>
+                    <span className="const">
+                      phone <span className="function">{igual} </span>
+                      <span className="value">'+55 84 98898-8668'</span>
                       <span className="pontuation">;</span>
                     </span>
                   </p>
@@ -67,22 +75,22 @@ export default function Main() {
                           <span className="key">course</span>
                           <span className="pontuation">: </span>
                           <span className="value">
-                            'Bacharelado em Sistemas de Informação'
-                        </span>
+                            'Bachelor of Information Systems'
+                          </span>
                           <span className="pontuation">,</span>
                         </div>
                         <div className="ident1">
                           <span className="key">instituition</span>
                           <span className="pontuation">: </span>
                           <span className="value">
-                            'Universidade Federal Rural do Semi-Árido (UFERSA)'
-                        </span>
+                            'Federal Rural University of Semiarid (UFERSA)'
+                          </span>
                           <span className="pontuation">,</span>
                         </div>
-                        <span className="pontuation">{fechaChave},</span>
+                        <span className="pontuation">{fechaChave}</span>
                       </div>
                       {/* pos1 do obj */}
-                      <div className="ident1">
+                      {/*  <div className="ident1">
                         <span className="pontuation">{abreChave}</span>
                         <br />
                         <div className="ident1">
@@ -103,7 +111,7 @@ export default function Main() {
                           <span className="pontuation">,</span>
                         </div>
                         <span className="pontuation">{fechaChave}</span>
-                      </div>
+                      </div> */}
                       <span className="pontuation">];</span>
                     </span>
                   </p>
@@ -124,56 +132,72 @@ export default function Main() {
                           {/* indice 1 */}
                           <span className="key">JavaScript</span>
                           <span className="pontuation">: </span>
-                          <span className="value">'Básico-Intermediário'</span>
+                          <span className="value">'2-3 years'</span>
                           <span className="pontuation">,</span>
                           <br />
                           {/* indice 2 */}
-                          <span className="key">HTML</span>
+                          <span className="key">HTML5</span>
                           <span className="pontuation">: </span>
-                          <span className="value">'Intermediário-Avançado'</span>
+                          <span className="value">'2-3 years'</span>
                           <span className="pontuation">,</span>
                           <br />
                           {/* indice 3 */}
-                          <span className="key">CSS</span>
+                          <span className="key">CSS3</span>
                           <span className="pontuation">: </span>
-                          <span className="value">'Intermediário-Avançado'</span>
+                          <span className="value">'2-3 years'</span>
                           <span className="pontuation">,</span>
                           <br />
                           {/* indice 4 */}
-                          <span className="key">ReactJs</span>
+                          <span className="key">React</span>
                           <span className="pontuation">: </span>
-                          <span className="value">'Básico-Intermediário'</span>
+                          <span className="value">'1-2 years'</span>
                           <span className="pontuation">,</span>
                           <br />
                           {/* indice 5 */}
-                          <span className="key">NodeJs</span>
+                          <span className="key">Styled_Components</span>
                           <span className="pontuation">: </span>
-                          <span className="value">'Básico'</span>
+                          <span className="value">'0-1 years'</span>
                           <span className="pontuation">,</span>
                           <br />
-                          {/* indice 6 */}
-                          <span className="key">ReactNative</span>
+                          {/* indice 5 */}
+                          <span className="key">SASS</span>
                           <span className="pontuation">: </span>
-                          <span className="value">'Básico'</span>
+                          <span className="value">'0-1 years'</span>
+                          <span className="pontuation">,</span>
+                          <br />
+
+                          {/* indice 6 */}
+                          <span className="key">React_Native</span>
+                          <span className="pontuation">: </span>
+                          <span className="value">'0-1 years'</span>
                           <span className="pontuation">,</span>
                           <br />
                           {/* indice 7 */}
-                          <span className="key">MySQL</span>
+                          {/*                           <span className="key">MySQL</span>
                           <span className="pontuation">: </span>
                           <span className="value">'Básico-Intermediário'</span>
                           <span className="pontuation">,</span>
-                          <br />
+                          <br /> */}
                           {/* indice 8 */}
                           <span className="key">Photoshop</span>
                           <span className="pontuation">: </span>
-                          <span className="value">'Básico-Intermediário'</span>
+                          <span className="value">'5-6'</span>
                           <span className="pontuation">,</span>
                           <br />
                           {/* indice 9 */}
                           <span className="key">Figma</span>
                           <span className="pontuation">: </span>
-                          <span className="value">'Básico'</span>
+                          <span className="value">'1-2'</span>
                           <span className="pontuation"></span>
+                          <br />
+                          {/* indice 8 */}
+                          <span className="key">English</span>
+                          <span className="pontuation">: </span>
+                          <span className="value">
+                            'Basic technical English'
+                          </span>
+                          <span className="pontuation">,</span>
+                          <br />
                         </div>
                         <span className="pontuation">{fechaChave}</span>
                       </div>
@@ -197,23 +221,19 @@ export default function Main() {
                         <div className="ident1">
                           <span className="key">company</span>
                           <span className="pontuation">: </span>
-                          <span className="value">
-                            'Turing Tecnologia - Empresa Jr. (UFERSA)'
-                        </span>
+                          <span className="value">'Acelerabit'</span>
                           <span className="pontuation">,</span>
                         </div>
                         <div className="ident1">
                           <span className="key">post</span>
                           <span className="pontuation">: </span>
-                          <span className="value">
-                            'Desenvolvedor Front-End e Designer'
-                        </span>
+                          <span className="value">'Front-End Developer'</span>
                           <span className="pontuation">,</span>
                         </div>
                         <div className="ident1">
                           <span className="key">period</span>
                           <span className="pontuation">: </span>
-                          <span className="value">'11.2019 - Atualmente'</span>
+                          <span className="value">'Ago/2020 - currently'</span>
                           <span className="pontuation">,</span>
                         </div>
                         <span className="pontuation">{fechaChave},</span>
@@ -226,24 +246,27 @@ export default function Main() {
                           <span className="key">company</span>
                           <span className="pontuation">: </span>
                           <span className="value">
-                            'Incubadora Tecnológica e Multissetorial do Sertão do
-                            Cabugi (INEAGRO CABUGI)'
-                        </span>
+                            'Turing Tecnologia - Junior Company (UFERSA)'
+                          </span>
                           <span className="pontuation">,</span>
                         </div>
                         <div className="ident1">
                           <span className="key">post</span>
                           <span className="pontuation">: </span>
-                          <span className="value">'Social Media e Designer'</span>
+                          <span className="value">
+                            'Front-End Developer and Designer'
+                          </span>
                           <span className="pontuation">,</span>
                         </div>
                         <div className="ident1">
                           <span className="key">period</span>
                           <span className="pontuation">: </span>
-                          <span className="value">'12.2017 - 10.2018'</span>
+                          <span className="value">
+                            'Nov/2019 - currently as a volunteer'
+                          </span>
                           <span className="pontuation">,</span>
                         </div>
-                        <span className="pontuation">{fechaChave}</span>
+                        <span className="pontuation">{fechaChave},</span>
                       </div>
                       <span className="pontuation">];</span>
                     </span>
@@ -261,7 +284,9 @@ export default function Main() {
               </p>
               <br /> */}
                 <p className="cores">
-                  <span className="comment">/* me contrata */</span>
+                  <span className="comment">
+                    /* let's have a coffee and chat? */
+                  </span>
                   <div className="cursorAnimated">
                     <span className="cursor">|</span>
                   </div>
